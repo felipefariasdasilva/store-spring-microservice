@@ -16,17 +16,23 @@ Dê um exemplo
 
 ### Instalação
 
-Passo a passo seguidos de exemplos mostrando como se obter o ambiente de desenvolvimento rodando. É uma boa prática colocar o modo de instalação para Windows, macOS e para as principais distribuições Linux.
+Para rodar a aplicação, execute os próximos passos:
 
-Explique o que essa etapa será
+1. Faça o clone do projeto
 ```
-Dê um exemplo
+https://github.com/felipefariasdasilva/store-spring-microservice.git
 ```
 
-E repita
+2. Entre na pasta
 
 ```
-Até acabar
+cd store-spring-microservice
+```
+
+3. Execute a aplicação com Maven
+
+```
+mvn spring-boot:run
 ```
 
 Finalize com um exemplo obtendo dados do sistema ou fazendo uma pequena demostração do funcionamento da aplicação
@@ -58,10 +64,8 @@ Dê um exemplo
 Adicione notas de como dar deploy do sistema em produção.
 
 ## Desenvolvido com
-Mencionar os frameworks e ferramentes utilizados para se desenvolver essa aplicação. Como por exemplo:
-
-* [Angular](https://angular.io/) - O framework web utilizado
-* [MongoDb](https://www.mongodb.com/) - O banco de dados utilizado.
+* [Spring Boot](https://spring.io/projects/spring-boot) - O framework web utilizado
+* [Maven](https://maven.apache.org/) - Gerenciador de dependências
 
 ## Contribuições
 
@@ -71,11 +75,11 @@ Por favor leia [CONTRIBUTING.md]() para mais detalhes a respeito do nosso códig
 
 ## Versionamento
 
-Nós usamos [SemVer](http://semver.org/) para versionamento. Para visualizar as versões disponíveis veja [tags nesse repositórios](https://github.com/your/project/tags). 
+Nós usamos [GitHub](https://github.com/ para versionamento. Para visualizar as versões disponíveis veja [tags nesse repositórios](https://github.com/your/project/tags).  
 
 ## Autores
 
-* **Geraldo Braz** - *Trabalho inicial* - [@geraldobraz](https://github.com/geraldobraz)
+* **Felipe Farias** - *Trabalho inicial* - [@felipefariasdasilva](https://github.com/felipefariasdasilva)
 
 Veja também a lista completa de [contribuidores](https://github.com/your/project/contributors) que contribuiram para o desenvolvimento deste projeto.
 
